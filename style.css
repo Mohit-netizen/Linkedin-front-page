@@ -1,0 +1,53 @@
+#FP {color: #0a66c2 ; 
+    font-style: normal; 
+    text-align: start;
+    margin-top: -20px;
+    margin-left: 18px;
+    
+}
+.card-layout {
+    text-align: center;
+    margin: 20px; /* Margin around the card */
+    
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    max-width: 350px; /* Set max width to limit size */
+    width: 100%; /* Full width up to max-width */
+    height: 100vh
+}
+
+.card-layout h1 {
+    text-align: center;
+    margin-right: 200px;
+}
+
+.card-layout p {
+    text-align: center;
+    margin-right: 34px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+
+label {
+    
+  
+   
+}
+
+input[type="text"] {
+    width: 100%; /* Full width of the container */
+    height: 50px; /* Adjust height as needed */
+    padding: px; /* Space inside the input */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0 20px 10px;
+}
