@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="l logo.svg" alt="LinkedIn Logo" width="115" height="28" style="margin-top: 25px; margin-left: 23px;">
+        <img src="icons/l logo.svg" alt="LinkedIn Logo" width="115" height="28" style="margin-top: 25px; margin-left: 23px;">
         
     </header>
 <div class="container">
@@ -18,7 +18,7 @@
         <h1 >Sign In</h1>
         <p style="margin-top: -15px;">Stay updated on your professional world.</p>
 
-        <label>
+        
             <input type="text" autocomplete="username" name="username" placeholder="Email or phone" maxlength="10" required>
             <br>
             <input type="text" name="password" placeholder="Password" required>
@@ -26,8 +26,9 @@
         <br>
 
         <p ><b><h3 id="FP">Forget Password?</h3></b></p>
-        <br>
-        <a href="" class="button">Sign in</a>
+        
+        <button id="button">Sign in</button>
+        
         <br>
       
         <div style="display: flex; align-items: center; margin: 20px 0;">
@@ -36,23 +37,50 @@
             <hr style="border: 0.01px solid #ccc; width: 50%; margin: 0;">
         </div>
 
-        <h5>
+        <h6>
             By clicking Continue, you agree to 
-            <a href="user-agreement-link" target="_blank">LinkedIn’s User Agreement</a>, 
-            <a href="privacy-policy-link" target="_blank">Privacy Policy</a>, and 
+            <a href="user-agreement-link" target="_blank">LinkedIn’s User Agreement</a>,<br><a href="privacy-policy-link" target="_blank" >Privacy Policy</a>, and 
             <a href="cookie-policy-link" target="_blank">Cookie Policy</a>.
-        </h5>
-        
-        
+        </h6>
 
-
-       
-    
-    
-
-
+        <button id="with" >
+            <img src="icons/google48.png" alt="Google Icon" style="width: 24px; height: 24px; margin-right: 6px;">
+           Continue with Google
+        </button>
+         <br>
+        <button id="with" >
+            <img src="icons/apple.svg" alt="Apple Icon" style="width: 24px; height: 24px;margin-right: 10px;" >
+            Sign in with Apple
+        </button>
     </div>
 </div>
+
+<p id="New">New to LinkedIn? <span id="span"  style="font-size: 1.25em; font-weight: lighter;">Join now</span></p>
+
+ 
+
+    <div id="link-container">
+        <img src="icons/l logo.svg" alt="LinkedIn Logo" width="58" height="14" style="margin: 5px;" >
+        <h6 style="color: black;">&copy;2024</h6>
+        <a href="User Agreement" class="link-style">User Agreement</a>
+        <a href="User Agreement" class="link-style">Privacy Policy</a>
+        <a href="User Agreement" class="link-style">Community Guidelines</a>
+        <a href="User Agreement" class="link-style">Cookie Policy</a>
+        <a href="User Agreement" class="link-style">Copyright Policy</a>
+        <a href="User Agreement" class="link-style">Send Feedback</a>
+        <select name="Language">
+            <option value="a-level">Language</option>
+            <option value="a-level">Hindi</option>
+            <option value="o-level">Punjabi</option>
+            <option value="b-level">Marthi</option>
+            <option value="c-level">Gujrati</option>
+        </select><br><br>
+
+    </div>
+
+    
+
+
 
 
 

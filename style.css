@@ -1,19 +1,19 @@
 #FP {color: #0a66c2 ; 
     font-style: normal; 
     text-align: start;
-    margin-top: -20px;
+    margin-top: -12px;
     margin-left: 18px;
     
 }
 .card-layout {
     text-align: center;
-    margin: 20px; /* Margin around the card */
+    margin: 20px;
     
     border: 1px solid #ccc; 
     border-radius: 10px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    max-width: 350px; /* Set max width to limit size */
-    width: 100%; /* Full width up to max-width */
+    max-width: 350px; 
+    width: 100%; 
     height: 100vh
 }
 
@@ -27,27 +27,80 @@
     margin-right: 34px;
 }
 
+.card-layout h6 {
+    text-align: start;
+    margin-left: 18px;
+    margin-top: -8px;
+}
+
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 100%; 
 }
 
-
-label {
-    
-  
-   
-}
 
 input[type="text"] {
-    width: 100%; /* Full width of the container */
-    height: 50px; /* Adjust height as needed */
-    padding: px; /* Space inside the input */
-    border: 1px solid #ccc; /* Border styling */
-    border-radius: 5px; /* Rounded corners */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    width: 90%; 
+    height: 50px; 
+    padding: px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
     margin: 0 20px 10px;
 }
+
+#button {
+    color: white;
+    background-color: #0a66c2;
+    width: 90%; 
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 28px !important;
+}
+
+#with {
+    color: rgb(128, 128, 128);
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 28px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18px;
+}
+
+#New {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#span {
+    color: #0a66c2;
+    margin-left: 5px;
+
+
+}
+
+
+        #link-container {
+            display: flex;
+            justify-content: space-around; 
+            align-items: center;  
+            margin: -20px;
+        }
+
+        .link-style {
+            color: rgb(128, 128, 128);
+            text-decoration: none;
+            margin: -20 -50px; 
+            font-size: 0.8em;
+        }
+    
+
+
